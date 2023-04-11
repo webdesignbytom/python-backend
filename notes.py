@@ -195,3 +195,30 @@ if boy2 == True and short2 == False:
     print('truuw')
 else:
     print('esle')
+
+# testValue = input('enter a value: ')
+
+# if type(testValue) == str:
+#     print(testValue + 'is a string')
+# else: 
+#     print('nah')
+
+# DICTIONARY
+my_dict = {
+    'name': 'tom',
+    'age': 'ten',
+    'size': 'large',
+    'pleh': 55,
+    'magic': True,
+    'freinds': ['jack', 'james']
+}
+
+print(my_dict)
+print(my_dict['magic']) # true
+print(len(my_dict))
+print(my_dict['freinds']) 
+
+x = my_dict['freinds']
+print(x)
+
+# WHILE LOOP
