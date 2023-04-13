@@ -2,7 +2,7 @@
 
 All information and shortcuts for Python Language.
 
-## Set up
+## Installation
 
 1. Install Python for OS
 2. Install django for OS
@@ -17,6 +17,13 @@ All information and shortcuts for Python Language.
 
 - `pip install <package-name> --user` packages error free
 - install virtual environment using pip `py -m pip install --user virtualenv`
-- new environment `py -m venv myproject`
-- To activate your virtual environment `.\myproject\Scripts\activate` - You’ll see “(myproject)” next to the command prompt.
+
+## Start new environment
+
+- Start new file
+- Open terminal to cmd
+- `python -m venv projectName` wait for files to install
+- -new environment `py -m venv projectName`
+- To activate your virtual environment `.\projectName\Scripts\activate` - You’ll see “(myproject)” next to the command prompt.
 - Deactivate your virtual environment `deactivate`
+- cntr shift p - set interpreter
