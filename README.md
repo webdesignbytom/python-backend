@@ -27,3 +27,7 @@ All information and shortcuts for Python Language.
 - To activate your virtual environment `.\projectName\Scripts\activate` - You’ll see “(myproject)” next to the command prompt.
 - Deactivate your virtual environment `deactivate`
 - cntr shift p - set interpreter
+
+### Data notes
+- file modes 'w (write)', 'r (read)', 'a (append)'
+- a will write to the end of the file or create a new file

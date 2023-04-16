@@ -5,6 +5,12 @@ print(name + ' Hello world', 100)
 age = 18
 print(name + ' Hello\n world', age)
 
+# Get data from file but you must close the file
+file = ('file.txt', 'a') 
+file.close()
+## use with to auto close
+with open('file.txt', 'a') as f:
+    pass
 # STIRNGS
 # Part of var
 print(name[1])
@@ -21,6 +27,11 @@ print(len(name))
 print(name.index('o'))
 ## Find letter and replace
 print(name.replace('m', 'x'))
+# Remove carridge return
+print('xxx'.rstrip()) 
+# break things down into separate lines when you find a character
+'data'.split("|")
+
 
 # NUMBERS
 number = 79
@@ -46,6 +57,10 @@ print(round(3.4))
 print(bin(255))
 ## square
 print(sqrt(100))
+
+import random
+print(random.randrange(-1, 11))
+print(random.randint(-1, 11)) # shows 11
 
 # USER INPUT
 # username = input('Input your name: ')
