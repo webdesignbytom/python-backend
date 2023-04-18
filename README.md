@@ -36,7 +36,7 @@ All information and shortcuts for Python Language.
 
 Environments are a sandbox where you can install packages and test code.
 ### My Laptop
-- `c:/Users/Tom/pyver/py311/python.exe -m venv abctest` create new environment inside empty directory
+- `c:/Users/Tom/pyver/py311/python -m venv abctest` create new environment inside empty directory
 
 ### General
 - Start new file
