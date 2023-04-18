@@ -1,3 +1,6 @@
 # List of dependencies used
+## Will be auto installed if commanded and can install a range
 
-# flask 1.10.1
+## flask 1.10.1
+
+## flask>=1.10.2<2.12
