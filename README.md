@@ -21,7 +21,7 @@ All information and shortcuts for Python Language.
 7. `<projectName>\Scripts\activate` activate the environment
 8. create a file in cmd `type nul > script.py`
 9. `echo var1 = 10 >> script.py` add code in cmd
-   
+10. install all dependencies from txt file `pip install -r requirements.txt`
 ### Aditionals
 
 1. Python shell
@@ -35,12 +35,15 @@ All information and shortcuts for Python Language.
 ## Start new environment
 
 Environments are a sandbox where you can install packages and test code.
+### My Laptop
+- `c:/Users/Tom/pyver/py311/python.exe -m venv abctest` create new environment inside empty directory
 
+### General
 - Start new file
 - Open terminal to cmd
 - `python -m venv projectName` wait for files to install
 - -new environment `py -m venv projectName`
-- To activate your virtual environment `.\projectName\Scripts\activate` - You’ll see “(myproject)” next to the command prompt.
+- To activate your virtual environment `projectName\Scripts\activate` - You’ll see “(myproject)” next to the command prompt. `projectName\Scripts\activate.bat`
 - Deactivate your virtual environment `deactivate`
 - cntr shift p - set interpreter
 
