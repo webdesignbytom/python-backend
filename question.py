@@ -12,6 +12,7 @@ max_score = 6000
 user_vote = max_score/1000000
 
 ## so gen knowledge is worth 25% of 6000 points
+## dictionary 
 original_categories = {'General knowledge': (max_score/100) * 25, 'Spacial Reasoning': (max_score/100) * 15, 'IQ': (max_score/100) * 60}
 
 ## Sub categories of general knowledge
@@ -21,6 +22,12 @@ gen_knowledge_sub_cats = {'history': '10%', 'sports': '10%', 'math': '55%', 'sci
 def vote_up(category):
     print("Your up vote is being cast for " + category)
 
+    upvote_score = user_vote
+    downvote_score = user_vote / (len(original_categories) - 1)
+
+    print('up score: ', upvote_score)
+    print('down score: ', downvote_score)
+    print("length: ", len(original_categories) - 1)
     # category_percentage += user_vote
     # other_category1 -= user_vote / len(original_categories) -1 ## -1 because one cat gets added to
     # other_category2 -= user_vote / len(original_categories) -1 
