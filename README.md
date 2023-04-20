@@ -69,6 +69,8 @@ pip
 - `pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U` update all
 - `pip list --outdated --format=freeze | findstr -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U` update all
 - `pip freeze --local | Select-String -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U` ## cmd update
+- `pip install "psycopg[binary]"` for server sql
+- `pip install "psycopg[pool]"`
 
 flask
 
