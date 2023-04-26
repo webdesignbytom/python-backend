@@ -6,11 +6,12 @@ All information and shortcuts for Python Language.
 
 - [Python Starter Repo](#python-starter-repo)
   - [Table of contents](#table-of-contents)
-- [Install](#install)
-- [Set up new python env](#set-up-new-python-env)
+  - [Install](#install)
+  - [Set up new python env](#set-up-new-python-env)
   - [Set up cmd commands](#set-up-cmd-commands)
     - [Aditional parts](#aditional-parts)
   - [Environments](#environments)
+  - [Modules](#modules)
     - [My Laptop location](#my-laptop-location)
   - [General](#general)
   - [Project dependencies](#project-dependencies)
@@ -18,7 +19,7 @@ All information and shortcuts for Python Language.
     - [Data notes](#data-notes)
     - [Extensions (VSCode)](#extensions-vscode)
 
-# Install
+## Install
 
 1. Create file to store python and download and install `mkdir pyver`
 2. Use custom install on python - comes with pip
@@ -26,7 +27,7 @@ All information and shortcuts for Python Language.
    2. Tick install for all users
    3. set install location to created directory plus `/py<versionNumber>`
 
-# Set up new python env
+## Set up new python env
 
 1. Create project directory
 2. install the environment `python -m venv projectName`
@@ -48,6 +49,11 @@ All information and shortcuts for Python Language.
 ## Environments
 
 Environments are a sandbox where you can install packages and test code.
+
+## Modules
+
+1. `import time` This is the time and date modules
+2. `import calendar` Calander 
 
 ### My Laptop location
 
@@ -84,6 +90,10 @@ django
 - `django-admin startproject mysite` install package
 - `python manage.py runserver` run server
 - `python manage.py runserver 8080` run on port 8080
+- `mython manage.py startapp main`
+- `python manage.py migrate` compile new files added
+- `python manage.py makemigrations <NAME>` add new fields to database
+- `python manage.py migrate` compile new files added (AGAIN)
 
 ### Data notes
 

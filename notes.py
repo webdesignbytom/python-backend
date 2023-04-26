@@ -57,7 +57,8 @@ print(round(3.4))
 print(bin(255))
 ## square
 print(sqrt(100))
-
+## Power
+print(pow(4, 3))
 import random
 print(random.randrange(-1, 11))
 print(random.randint(-1, 11)) # shows 11
