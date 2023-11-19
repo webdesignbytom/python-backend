@@ -6,8 +6,12 @@ All information and shortcuts for Python Language.
 
 - [Python Starter Repo](#python-starter-repo)
   - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
   - [Install](#install)
   - [Set up new python env](#set-up-new-python-env)
+  - [Set up Environments with Anaconda](#set-up-environments-with-anaconda)
+    - [Conda Commands](#conda-commands)
+    - [Using with VS code](#using-with-vs-code)
   - [Set up cmd commands](#set-up-cmd-commands)
     - [Aditional parts](#aditional-parts)
   - [Environments](#environments)
@@ -19,6 +23,12 @@ All information and shortcuts for Python Language.
     - [Data notes](#data-notes)
     - [Extensions (VSCode)](#extensions-vscode)
 
+## Overview
+
+On windows use CMD to execute commands.
+
+Python is a great language for AI and machine learning.
+
 ## Install
 
 1. Create file to store python and download and install `mkdir pyver`
@@ -29,10 +39,43 @@ All information and shortcuts for Python Language.
 
 ## Set up new python env
 
-1. Create project directory
-2. install the environment `python -m venv projectName`
-3. Directory projectName will be created
-4. `<projectName>\Scripts\activate` activate the environment
+1. Open CMD adn locatie python directory``
+2. Create project directory
+3. install the environment `python -m venv projectName`
+4. Directory projectName will be created
+5. `<projectName>\Scripts\activate` activate the environment
+6. `pip install numpy` add modules
+7. `pip list` see all packages
+8. Create a main.py file using vscode and add
+
+```py
+import random
+
+# Generate a random number between 1 and 10
+random_number = random.randint(1, 10)
+
+print(f"Random number: {random_number}")
+```
+
+8. From cmd run `python <projectname>/main.py` to run in command line.
+
+
+## Set up Environments with Anaconda
+
+1. Open cmd
+2. Run `conda` to check install
+3. To create run `conda create --name <nameEnv> python=3.11`
+4. `conda list` see all packages
+
+### Conda Commands
+
+`conda info --envs` see all environments
+`conda list` see all packages
+`conda env remove -n <envName>` remove env
+
+### Using with VS code
+
+
 
 ## Set up cmd commands
 
@@ -53,7 +96,7 @@ Environments are a sandbox where you can install packages and test code.
 ## Modules
 
 1. `import time` This is the time and date modules
-2. `import calendar` Calander 
+2. `import calendar` Calander
 
 ### My Laptop location
 
